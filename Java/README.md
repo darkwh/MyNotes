@@ -1,2 +1,2 @@
-# MyNotes
-自己的Android学习笔记，不定期更新=.=
+# Java
+Java基础学习笔记
