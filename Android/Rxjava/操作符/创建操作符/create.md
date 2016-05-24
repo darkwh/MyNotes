@@ -1,6 +1,8 @@
 #Create
 从头创建一个Observable，最基本的创建方式
 
+create方法默认不在任何特定的调度器上执行。
+
 示例代码：
 ```java
 Observable.create(new Observable.OnSubscribe<Integer>() {
