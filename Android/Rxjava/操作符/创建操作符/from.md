@@ -2,6 +2,8 @@
 
 将其它种类的对象和数据类型转换为Observable
 
+from默认不在任何特定的调度器上执行
+
 from操作符可以转换Future、Iterable和数组
 
 - Iterable和数组：
