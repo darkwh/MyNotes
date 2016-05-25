@@ -4,5 +4,7 @@
 
 defer操作符接受一个你选择的Observable工厂函数作为单个参数
 
+defer方法默认不在任何特定的调度器上执行
+
 - javadoc:defer(Func0)
 
