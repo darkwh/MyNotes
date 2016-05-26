@@ -7,3 +7,13 @@ FlatMap操作符使用一个指定的函数对原始Observable发射的每一项
 ![](https://github.com/darkwh/MyNotes/blob/master/Android/Rxjava/resource/flatmap.png)
 
 注意：如果任何一个通过这个flatMap操作产生的单独的Observable调用onError异常终止了，这个Observable自身会立即调用onError并终止。
+
+
+- Javadoc: flatMap(Func1))
+- Javadoc: flatMap(Func1,int))
+
+
+# 个人理解
+将一个(Observable)变为多个(Observable)，并将变换后的Observables的数据整合为一个单独的Observable.
+
+flat；平坦，铺平     记忆方式：多个Observables整合为一个Observable，有铺平的意思，故为flatMap
