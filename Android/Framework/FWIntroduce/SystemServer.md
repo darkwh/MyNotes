@@ -4,9 +4,9 @@ SystemServer是虚拟机启动后运行的第一个java进程
 SystemServer启动其他系统服务,这些系统服务都是以一个线程的方式存在于SystemServer进程中
 
 #SystemServer中启动服务列表
- -EntropyService  提供伪随机数
-►
-PowerManagerService
+
+- EntropyService  提供伪随机数
+- PowerManagerService
 电源管理服务
 ►
 ActivityManagerService
