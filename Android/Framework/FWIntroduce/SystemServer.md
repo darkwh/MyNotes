@@ -5,7 +5,7 @@ SystemServer启动其他系统服务,这些系统服务都是以一个线程的�
 
 #SystemServer中启动服务列表
 
-- EntropyService            提供伪随机数
+- EntropyService                提供伪随机数
 - PowerManagerService       电源管理服务
 - ActivityManagerService     最核心的服务之一，管理
 Activity
