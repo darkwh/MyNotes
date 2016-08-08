@@ -31,40 +31,12 @@ SystemServer启动其他系统服务,这些系统服务都是以一个线程的�
 - MountService  挂载服务，可通过该服务调用Linux层面的mount程序
 - NotificationManagerService  通知栏管理服务,Android中的通知栏和状态栏在一起，只是界面上前者在左边，后者在右边
 - DeviceStorageMonitorService 磁盘空间状态检测服务
-►
-LocationManagerService
-地理位置服务
-►
-SearchManagerService
-搜索管理服务
-►
-DropBoxManagerService
-通过该服务访问
-Linux
-层面的
-Dropbox
-程序
-►
-WallpaperManagerService
-墙纸管理服务，墙纸不等同于桌
-面背景，在
-View
-系统内部，墙纸可以作为任何窗口的
-背景
-►
-AudioService
-音频管理服务
-►
-BackupManagerService
-系统备份服务
-SystemServer
-►
-AppWidgetService
-Widget
-服务
-►
-RecognitionManagerService
-身份识别服务
-►
-DiskStatsService
-磁盘统计服务
+- LocationManagerService  地理位置服务
+- SearchManagerService  搜索管理服务
+- DropBoxManagerService 通过该服务访问Linux层面的Dropbox程序
+- WallpaperManagerService 墙纸管理服务，墙纸不等同于桌面背景，在View系统内部，墙纸可以作为任何窗口的背景
+- AudioService  音频管理服务
+- BackupManagerService  系统备份服务
+- AppWidgetService  Widget服务
+- RecognitionManagerService 身份识别服务
+- DiskStatsService  磁盘统计服务
