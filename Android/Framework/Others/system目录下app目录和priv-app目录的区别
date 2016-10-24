@@ -1,0 +1,4 @@
+#system/app和system/priv-app的区别
+system/priv-app目录下一般放系统核心应用，例如systemui,settings.
+
+声明应用需要放在priv目录下:LOCAL_PRIVILEGED_MODULE := true
